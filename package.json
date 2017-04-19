@@ -1,1 +1,40 @@
-{     "devDependencies": {         "karma-chrome-launcher": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-karma-chrome-launcher",     "homepage": "https://github.com/npmtest/node-npmtest-karma-chrome-launcher",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-karma-chrome-launcher.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [karma-chrome-launcher (v2.0.0)](https://github.com/karma-runner/karma-chrome-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-chrome-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "karma-chrome-launcher": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-karma-chrome-launcher",
+    "keywords": [
+        "coverage",
+        "test",
+        "karma-chrome-launcher"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_karma_chrome_launcher.js",
+    "name": "npmtest-karma-chrome-launcher",
+    "nameAlias": "npmtest_karma_chrome_launcher",
+    "nameOriginal": "npmtest-karma-chrome-launcher",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-karma-chrome-launcher.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
