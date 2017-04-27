@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [karma-chrome-launcher (v2.0.0)](https://github.com/karma-runner/karma-chrome-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-chrome-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher)",
+    "description": "#### basic test coverage for  [karma-chrome-launcher (v2.0.0)](https://github.com/karma-runner/karma-chrome-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-chrome-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "karma-chrome-launcher": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }

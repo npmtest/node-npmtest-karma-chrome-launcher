@@ -1,6 +1,6 @@
 # npmtest-karma-chrome-launcher
 
-#### test coverage for  [karma-chrome-launcher (v2.0.0)](https://github.com/karma-runner/karma-chrome-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-chrome-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher)
+#### basic test coverage for  [karma-chrome-launcher (v2.0.0)](https://github.com/karma-runner/karma-chrome-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-karma-chrome-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-karma-chrome-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher.svg)](https://travis-ci.org/npmtest/node-npmtest-karma-chrome-launcher)
 
 #### A Karma plugin. Launcher for Chrome and Chrome Canary.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-chrome-launcher/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-karma-chrome-launcher/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-karma-chrome-launcher/build/coverage.html/index.html)
 
@@ -166,7 +166,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
